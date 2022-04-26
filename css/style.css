@@ -7,27 +7,44 @@
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
-    background-color:lightblue;
 }
 
 header {
-    background-color: lightcoral;
+    color: #e5326f;
+    text-align: center;
+    padding: 30px;
 }
 
-.columns {
-    background-color: lightseagreen;
+
+
+section:first-child p {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* COMMON */
 
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
 .card {
-    background-color: lightskyblue;
+    background-color: black;
     padding: 5px;
     float: left;
     width: calc(100% / 3);
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
+}
+
+.details span {
+    padding: 10px 0;
+}
+
+.details span:last-child {
+    color: #2dabcf;
 }
 
 .clearfix::after {
@@ -35,3 +52,20 @@ header {
     display: table;
     clear: both;
 }
+
+img {
+    width: 100px;
+    float: left;
+}
+.details {
+    float: left;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
