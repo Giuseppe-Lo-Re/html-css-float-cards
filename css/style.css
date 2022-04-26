@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -17,11 +17,16 @@ header {
     padding: 30px;
 }
 
-
-
 section:first-child p {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.card-container {
+    background-color: white;
+    padding: 10px;
+    float: left;
+    
 }
 
 /* COMMON */
@@ -32,10 +37,9 @@ body {
 
 .card {
     background-color: black;
-    padding: 5px;
+    margin: 10px;
     float: left;
     width: calc(100% / 3);
-    border: 1px solid white;
     color: white;
 }
 
@@ -57,11 +61,15 @@ img {
     width: 100px;
     float: left;
 }
+
 .details {
     float: left;
     margin: 15px;
 }
 
+.margin {
+    margin-left: 30px;
+}
 
 
 
