@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -17,9 +17,15 @@ header {
     padding: 30px;
 }
 
-section:first-child p {
+h3 {
+    margin-bottom: 10px;
+}
+
+div:first-child p {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .card-container {
@@ -37,18 +43,24 @@ body {
 
 .card {
     background-color: black;
-    margin: 10px;
-    float: left;
-    width: calc(100% / 3);
+    margin-bottom: 10px;
     color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)
 }
 
-.details span {
-    padding: 10px 0;
+.columns {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0px 16px;
+}
+
+.detail span:first-child {
+    padding-bottom: 10px;
 }
 
 .details span:last-child {
     color: #2dabcf;
+    margin-top: 10px;
 }
 
 .clearfix::after {
@@ -64,7 +76,8 @@ img {
 
 .details {
     float: left;
-    margin: 15px;
+    width: calc(100% - 100px);
+    padding: 16px;
 }
 
 .margin {
