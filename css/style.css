@@ -54,13 +54,10 @@ body {
     padding: 0px 16px;
 }
 
-.detail span:first-child {
-    padding-bottom: 10px;
-}
 
-.details span:last-child {
+
+.details div:last-child {
     color: #2dabcf;
-    margin-top: 10px;
 }
 
 .clearfix::after {
