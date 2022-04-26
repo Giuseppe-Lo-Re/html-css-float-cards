@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color:lightblue;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+.columns {
+    background-color: lightseagreen;
+}
+
+.card {
+    background-color: lightskyblue;
+    padding: 5px;
+}
